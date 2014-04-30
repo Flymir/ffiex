@@ -1,0 +1,15 @@
+--- This file is part of Flymir LuaDist project
+
+name = "ffiex"
+version = "scm"
+
+desc = "Extend LuaJIT ffi module"
+author = "Takehiro Iyatomi"
+license = "Apache v2"
+url = "http://github.com/umegaya/ffiex/"
+maintainer = "Tai Chi Minh Ralph Eastwood"
+
+depends = {
+	"lua >= 5.1"
+	"luaffi"
+}
