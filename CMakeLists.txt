@@ -8,5 +8,5 @@ cmake_minimum_required ( VERSION 2.8 )
 include ( cmake/dist.cmake )
 include ( lua )
 
-install ( DIRECTORY ffiex DESTINATION ${INSTALL_LMOD}/ffiex COMPONENT Runtime )
+install ( DIRECTORY ffiex DESTINATION ${INSTALL_LMOD} COMPONENT Runtime )
 install_data ( README.md )
