@@ -10,6 +10,6 @@ url = "http://github.com/umegaya/ffiex/"
 maintainer = "Tai Chi Minh Ralph Eastwood"
 
 depends = {
-	"lua >= 5.1"
+	"lua >= 5.1",
 	"luaffi"
 }
